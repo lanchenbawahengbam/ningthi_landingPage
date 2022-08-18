@@ -1,0 +1,596 @@
+/* Navbar */
+
+.nav {
+  box-sizing: border-box;
+  font-family: "Inter";
+  position: absolute;
+  width: 100vw;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border-bottom: 2px solid #d0d0d0;
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+.nav ul li {
+  display: inline-block;
+  justify-content: space-evenly;
+  line-height: 80px;
+  margin: 0 5px;
+  margin-left: 20px;
+  font-family: "Inter";
+  font-weight: 540;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: sans-serif;
+}
+
+.button {
+  width: 129px;
+  height: 43px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Inter";
+  line-height: 22px;
+  background: #e30000;
+  border-color: #e30000;
+  border-radius: 5px 30px 30px 30px;
+}
+
+.icons {
+  align-items: center;
+}
+
+.content {
+  color: black;
+}
+.navLogo {
+  margin-top: 20px;
+  cursor: pointer;
+}
+/*      ///////////////////        */
+
+/* Header */
+
+.headerContainer {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 767px;
+  background: linear-gradient(90deg, #ff6c4b 0%, #de0000 100%);
+}
+
+.title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-left: 60px;
+  margin-bottom: 200px;
+}
+
+.title h1 {
+  font-family: "Poppins";
+  padding: 1.5rem;
+  text-align: left;
+  text-decoration: none;
+  max-width: 350px;
+  width: 404px;
+  height: 210px;
+  left: 410px;
+  top: 305px;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.title h1 p {
+  margin-top: 20px;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-family: "Inter";
+  width: 376px;
+  height: 48px;
+  left: 410px;
+  top: 493px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.btndelivering {
+  width: 226px;
+  height: 56px;
+  position: relative;
+  background: #ffffff;
+  border-color: #ffffff;
+  border-radius: 5px 40px 40px 40px;
+  /* margin-top: 350px;
+  margin-right: 180px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  cursor: pointer;
+  color: #e30000;
+}
+
+.imageEnterpreneur {
+  position: relative;
+  margin-left: 100px;
+  display: flex;
+  max-width: 100%;
+  filter: drop-shadow(0px 7px 37px rgba(0, 0, 0, 0.16));
+  border-radius: 10px 10px 215.5px 10px;
+}
+
+/*                           */
+
+.rectangle {
+  width: 290px;
+  height: 84px;
+  left: 1px;
+  top: 788px;
+  position: absolute;
+  background: linear-gradient(
+    304.41deg,
+    rgba(189, 0, 255, 0.22) 10.24%,
+    rgba(255, 0, 0, 0.22) 76.26%
+  );
+  border-radius: 0px 100px 0px 5px;
+}
+
+/* Seller Card */
+
+.sellerCard {
+  position: absolute;
+  width: 100vw;
+  height: 50px;
+  left: 0px;
+  top: 857px;
+  /* background: linear-gradient(282.32deg, #3a004f 1.45%, #824242 106%);
+  border-radius: 0px 0px 500px 0px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 170px;
+}
+
+.imageDesktop {
+  width: 290px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2b201a;
+}
+.imageDesktop h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #2b201a;
+}
+
+.imageSubscription {
+  width: 290px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #2b201a;
+}
+.imageSubscription h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 41px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #2b201a;
+}
+
+.imageDelivery {
+  width: 290px;
+  text-align: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #2b201a;
+}
+
+.imageDelivery h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 41px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #2b201a;
+}
+/* .arrowSignup {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #e30000;
+} */
+
+/* Delivery Card */
+
+.deliveryCard {
+  position: absolute;
+  width: 100vw;
+  height: 547px;
+  left: 0px;
+  top: 1542px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #f0f0f0;
+}
+.imageAgent {
+  left: 409px;
+  top: 1463px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 600px;
+  margin-bottom: 200px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.deliveryTitle {
+  position: absolute;
+  width: 300px;
+  left: 1200px;
+}
+.deliveryTitle h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  align-items: center;
+  text-align: right;
+  letter-spacing: -0.02em;
+
+  color: #2b201a;
+}
+
+.deliveryTitle p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: right;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+.deliveringButton {
+  width: 226px;
+  height: 56px;
+  cursor: pointer;
+  background: #e30000;
+  background: #e30000;
+  border-radius: 30px 5px 30px 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+/* How it works */
+
+.deliveryWorking {
+  position: absolute;
+  width: 100vw;
+  height: 50px;
+  left: 0px;
+  top: 1850px;
+  /* background: linear-gradient(282.32deg, #3a004f 1.45%, #824242 106%);
+  border-radius: 0px 0px 500px 0px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 300px;
+}
+
+.imageWorking {
+  width: 1000px;
+  height: 240px;
+  left: 500px;
+  top: 2335px;
+  margin-left: 20px;
+}
+.imageWorking h2 {
+  width: 246px;
+  height: 57px;
+  left: 409px;
+  top: 2218px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  /* identical to box height, or 142% */
+
+  letter-spacing: -0.02em;
+
+  color: #2b201a;
+}
+
+.workingTitle {
+  position: absolute;
+  width: 100%;
+  left: 20px;
+  top: 2580px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #2b201a;
+}
+
+/* Get Started in 2 steps */
+
+.steps {
+  position: absolute;
+  width: 100vw;
+  height: 296px;
+  left: 0px;
+  top: 2800px;
+
+  display: flex;
+  justify-content: space-around;
+  background: #f0f0f0;
+}
+
+.stepsTitle h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: -0.02em;
+  color: #2b201a;
+}
+
+.stepsTitle p {
+  /* margin-left: 40px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+
+  color: #2b201a;
+}
+.stepsTitle p::before {
+  content: "\2022";
+  color: #e30000;
+  font-size: 30px;
+  font-weight: bolder;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: 0em;
+}
+
+.imageTwo {
+  width: 240px;
+  margin-top: -57px;
+}
+
+/* Let's Get your stuffs delivered */
+
+.stuffsDelivered {
+  position: absolute;
+  width: 100vw;
+  height: 520px;
+  left: 0px;
+  top: 3100px;
+  background: #e30000;
+}
+.stuffsDelivered h2 {
+  position: absolute;
+  width: 583px;
+  height: 57px;
+  left: 500px;
+  top: 165px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.stuffsButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 270px;
+}
+
+.signupButton {
+  width: 195px;
+  height: 46px;
+
+  background: #ffffff;
+  border-color: #ffffff;
+  align-items: center;
+  border-radius: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #e30000;
+}
+
+.imageNingthi {
+  left: 350px;
+  top: 3156px;
+  margin-left: 130px;
+  margin-top: -210px;
+}
+
+/* Footer */
+
+.footer {
+  /* position: fixed; */
+  width: 100vw;
+  height: 365px;
+  left: 1px;
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+}
+.footerRow {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footerColumn {
+  padding: 10px;
+
+  width: 240px;
+  height: 93px;
+  left: 720px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.footerColumn p {
+  width: 180px;
+  height: 93px;
+  left: 720px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.footerVisit {
+  padding: 10px;
+  width: 250px;
+  height: 93px;
+  left: 720px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.footerLamzing {
+  margin-left: 160px;
+  width: 80%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+/* .subtract {
+  margin-bottom: 100px;
+  position: absolute;
+  width: 100vw;
+  height: 728px;
+  left: 86px;
+  top: 939px;
+  z-index: -1;
+  background: #af40d6;
+  border-radius: 0px 0px 550px 0px;
+  background: linear-gradient(206.5deg, #af40d6 28.29%, #8a4045 95.44%);
+} */
